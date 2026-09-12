@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: nickey}
 layers:
   default:
-  - ESCAPE
+  - LEFT ALT
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - {t: '!', h: P}
+  - {t: P, h: '!'}
   - BACKSPACE
   - LEFT SHIFT
   - A
@@ -23,10 +23,10 @@ layers:
   - {t: J, h: arrow}
   - K
   - L
-  - {t: '-', h: '?'}
+  - {t: '?', h: '-'}
   - ENTER
   - LEFT CONTROL
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - {t: V, h: bluetooth}

@@ -33,7 +33,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-
     };
 
     keymap {
@@ -48,16 +47,16 @@
             >;
         };
 
-        layer_1 {
+        number {
             bindings = <
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &kp NUMBER_6      &kp N7                &kp N8                 &kp N9             &kp N0         &kp GRAVE
 &trans      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                  &kp LEFT          &kp DOWN              &kp UP                 &kp RIGHT          &trans         &kp TILDE
-&trans      &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &mo 3     &studio_unlock  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&trans      &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &mo 4     &studio_unlock  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
                                                       &trans        &trans        &trans    &kp DELETE      &trans            &trans
             >;
         };
 
-        layer_2 {
+        kigou {
             bindings = <
 &trans  &trans  &trans     &trans      &trans  &trans                    &kp QUESTION   &trans  &trans  &trans  &kp PERCENT  &trans
 &trans  &kp AT  &kp HASH   &kp DOLLAR  &trans  &trans                    &kp EXCL       &trans  &trans  &trans  &trans       &trans
@@ -66,7 +65,16 @@
             >;
         };
 
-        layer_3 {
+        arrow {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        bluetooth {
             bindings = <
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans

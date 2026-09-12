@@ -23,7 +23,7 @@ layers:
   - {t: J, h: arrow}
   - K
   - L
-  - {t: '?', h: '-'}
+  - {t: '-', h: '?'}
   - ENTER
   - LEFT CONTROL
   - {t: Z, h: LEFT SHIFT}

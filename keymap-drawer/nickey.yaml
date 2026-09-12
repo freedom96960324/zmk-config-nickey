@@ -163,9 +163,9 @@ layers:
   - LEFT CONTROL
   - LEFT SHIFT
   - F2
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - I
+  - O
+  - B
   - {t: ▽, type: trans}
   - UP ARROW
   - DOWN ARROW

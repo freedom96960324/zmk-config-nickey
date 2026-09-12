@@ -67,10 +67,10 @@
 
         arrow {
             bindings = <
-&trans            &kp Q           &kp W   &kp E   &kp R           &kp T                                         &trans          &trans     &trans  &trans  &trans  &trans
-&trans            &kp A           &kp S   &kp D   &kp F           &kp G                                         &kp UP_ARROW    &trans     &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp F2  &trans  &trans          &trans     &trans             &kp UP_ARROW    &kp DOWN_ARROW  &trans     &kp M   &trans  &trans  &trans
-                                                  &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW    &kp DOWN_ARROW  &kp ENTER       &kp SPACE
+&trans            &kp Q           &kp W   &kp E  &kp R           &kp T                                         &trans          &trans     &trans  &trans  &trans  &trans
+&trans            &kp A           &kp S   &kp D  &kp F           &kp G                                         &kp UP_ARROW    &trans     &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp F2  &kp I  &kp O           &kp B      &trans             &kp UP_ARROW    &kp DOWN_ARROW  &trans     &kp M   &trans  &trans  &trans
+                                                 &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW    &kp DOWN_ARROW  &kp ENTER       &kp SPACE
             >;
         };
 

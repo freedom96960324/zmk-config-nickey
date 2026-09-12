@@ -46,50 +46,50 @@ layers:
   - RET
   - SPACE
   number:
-  - ESCAPE
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - '`'
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
   - {t: ▽, type: trans}
-  - '~'
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - bluetooth
-  - '&studio_unlock'
-  - '['
-  - (
-  - )
-  - ']'
-  - \
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - ESCAPE
   kigou:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

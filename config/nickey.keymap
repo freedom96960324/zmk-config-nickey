@@ -17,7 +17,7 @@
         compatible = "zmk,combos";
 
         caplock {
-            bindings = <&none>;
+            bindings = <&kp CAPS>;
             key-positions = <16 15>;
         };
     };

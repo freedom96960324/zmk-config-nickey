@@ -27,8 +27,13 @@
             key-positions = <19 20>;
         };
 
-        rightclick {
-            bindings = <&none>;
+        ctrl-c {
+            bindings = <&kp LC(C)>;
+            key-positions = <3 4>;
+        };
+
+        ctrl-v {
+            bindings = <&kp LC(V)>;
             key-positions = <7 8>;
         };
     };

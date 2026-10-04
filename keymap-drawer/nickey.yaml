@@ -275,5 +275,7 @@ combos:
   k: CAPS
 - p: [19, 20]
   k: '&mkp LCLK'
+- p: [3, 4]
+  k: Ctl+C
 - p: [7, 8]
-  k: ''
+  k: Ctl+V

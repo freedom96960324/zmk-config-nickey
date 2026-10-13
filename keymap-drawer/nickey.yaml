@@ -31,7 +31,7 @@ layers:
   - C
   - {t: V, h: bluetooth}
   - B
-  - CAPSLOCK
+  - Ctl+C
   - DELETE
   - N
   - M

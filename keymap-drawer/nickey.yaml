@@ -31,7 +31,7 @@ layers:
   - C
   - {t: V, h: bluetooth}
   - B
-  - Ctl+C
+  - CLCK
   - DELETE
   - N
   - M
@@ -275,3 +275,5 @@ combos:
   k: CAPS
 - p: [19, 20]
   k: Ctl+V
+- p: [16, 15]
+  k: Ctl+C

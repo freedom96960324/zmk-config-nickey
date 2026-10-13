@@ -22,19 +22,9 @@
             key-positions = <16 15>;
         };
 
-        leftclick {
-            bindings = <&mkp LCLK>;
-            key-positions = <19 20>;
-        };
-
-        ctrl-c {
-            bindings = <&kp LC(C)>;
-            key-positions = <3 4>;
-        };
-
         ctrl-v {
             bindings = <&kp LC(V)>;
-            key-positions = <7 8>;
+            key-positions = <19 20>;
         };
     };
 

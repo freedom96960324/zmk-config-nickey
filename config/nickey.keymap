@@ -26,11 +26,6 @@
             key-positions = <19 20>;
         };
 
-        ctrl-c {
-            bindings = <&kp RC(C)>;
-            key-positions = <16 15>;
-        };
-
         escpe {
             bindings = <&kp ESCAPE>;
             key-positions = <0 11>;

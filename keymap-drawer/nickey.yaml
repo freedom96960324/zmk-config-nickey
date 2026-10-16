@@ -57,7 +57,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - '6'
   - '7'
@@ -69,7 +69,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - F1
   - F2
